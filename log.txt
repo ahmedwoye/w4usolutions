@@ -19,3 +19,6 @@
 2023-04-05 07:15:03.454  INFO 2664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8097 (http) with context path '/api/v1'
 2023-04-05 07:15:03.501  INFO 2664 --- [main] c.a.w.W4usolutionsApplication            : Started W4usolutionsApplication in 25.427 seconds (JVM running for 29.104)
 2023-04-05 11:25:36.114  WARN 2664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h32m59s430ms282µs700ns).
+2023-04-05 12:13:23.698  INFO 2664 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-05 12:13:23.708  INFO 2664 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-05 12:13:23.848  INFO 2664 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
