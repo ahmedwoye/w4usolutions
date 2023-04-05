@@ -1,0 +1,17 @@
+2023-04-05 07:13:06.795  INFO 9440 --- [main] c.a.w.repository.SapphireRepositoryTest  : Starting SapphireRepositoryTest using Java 17.0.4.1 on DESKTOP-N2EIPRD with PID 9440 (started by LENOVO in C:\Users\LENOVO\Downloads\w4usolutions\w4usolutions)
+2023-04-05 07:13:06.873  INFO 9440 --- [main] c.a.w.repository.SapphireRepositoryTest  : No active profile set, falling back to 1 default profile: "default"
+2023-04-05 07:13:11.887  INFO 9440 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-05 07:13:12.355  INFO 9440 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 397 ms. Found 4 JPA repository interfaces.
+2023-04-05 07:13:16.246  INFO 9440 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-05 07:13:16.652  INFO 9440 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-04-05 07:13:18.449  INFO 9440 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-05 07:13:19.261  INFO 9440 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-05 07:13:22.870  INFO 9440 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-05 07:13:23.027  INFO 9440 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-04-05 07:13:30.589  INFO 9440 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-05 07:13:30.636  INFO 9440 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-05 07:13:34.542  WARN 9440 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-05 07:13:38.245  INFO 9440 --- [main] c.a.w.repository.SapphireRepositoryTest  : Started SapphireRepositoryTest in 33.905 seconds (JVM running for 44.821)
+2023-04-05 07:13:40.104  INFO 9440 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-05 07:13:40.151  INFO 9440 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-05 07:13:40.338  INFO 9440 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
